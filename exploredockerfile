@@ -1,0 +1,7 @@
+FROM centos
+#
+RUN yum install httpd -y
+#
+#
+#
+cp ./explore_california /var/www/html/
